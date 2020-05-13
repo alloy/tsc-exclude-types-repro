@@ -1,0 +1,15 @@
+{
+  "name": "tsc-exclude-types-repro",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "tsc --noEmit --pretty"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.35",
+    "@types/styled-components": "^5.1.0",
+    "typescript": "^3"
+  }
+}
