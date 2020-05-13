@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     // "types": ["react", "styled-components"],
+    // "excludeTypes": ["react-native"],
     "target": "ES2015",
     "module": "commonjs",
     "lib": ["ES2015", "DOM"],

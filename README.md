@@ -41,3 +41,12 @@ Now uncomment the `types` property in `tsconfig.json` and run again:
 ```
 yarn start
 ```
+
+## Possible blacklist fix
+
+A very simple suggestion would be to add a `excludeTypes` property to `tsconfig.json`. You can test it like so:
+
+```
+yarn patch-package
+yarn start
+```
