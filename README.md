@@ -44,7 +44,7 @@ yarn start
 
 ## Possible blacklist fix
 
-A very simple suggestion would be to add a `excludeTypes` property to `tsconfig.json`. You can test it like so:
+A very simple suggestion would be to add a `excludeTypes` property to `tsconfig.json`. (See [the patch](./patches/typescript%2B3.9.2.patch).) You can test it like so:
 
 ```
 yarn patch-package
