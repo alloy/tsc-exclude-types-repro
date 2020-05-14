@@ -42,7 +42,7 @@ Now uncomment the `types` property in `tsconfig.json` and run again:
 yarn start
 ```
 
-## Possible blacklist fix
+## Possible denylist fix
 
 A very simple suggestion would be to add a `excludeTypes` property to `tsconfig.json`. (See [the patch](./patches/typescript%2B3.9.2.patch).) You can test it like so:
 
@@ -50,3 +50,5 @@ A very simple suggestion would be to add a `excludeTypes` property to `tsconfig.
 yarn patch-package
 yarn start
 ```
+
+and a potential [TS diff](https://github.com/microsoft/TypeScript/compare/master...orta:add_exclude?expand=1)
